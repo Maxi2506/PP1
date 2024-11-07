@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.CSS">
+    <link rel="stylesheet" href="CSS/style-vinos-premium.CSS">
+    <script src="https://kit.fontawesome.com/2e83633af7.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+                <a href="index.html">La Bodega</a>
+                <a href="nuestro-vinos.html">Nuestros Vinos</a>
+                <a href="nuestra-gente.html">Nuestra Gente</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="vinos-premium.html">Vinos Premium</a>
+        </nav>
+    </header>
+  
+    <div class="datos">
+        <div class="search">
+            <label><strong>Seleccione el tipo de vino que desea buscar...</strong></label>
+            <select name="" id="categoria">
+                <option value="Blanco">Blanco</option>
+                <option value="Rosado">Rosados</option>
+                <option value="Tinto">Tintos</option>
+            </select>
+            <label><strong>Ingrese su rango de precios</strong></label>
+            <label><strong>Desde $</strong></label>
+            <input id="desde" type="text">
+            <label><strong>Hasta $</strong></label>
+            <input type="text" name="" id="hasta">
+            <button onclick="BuscarProductosVP()"><strong>Enviar</strong></button>
+        </div>
+    </div>
+
+
+    <div class="cuerpo">
+        <main>
+            <h1 class="title"><strong><hr class="hrLinea">Descubrí nuestras etiquetas premium <hr class="hrLinea"></strong></h1>
+            <h1 class="title"><strong><hr class="hrLinea">Exclusivas de la casa<hr class="hrLinea"></strong></h1>
+            <p>Los vinos Aveiro son el reflejo del SUELO y la TIERRA.</p>
+            <p>Les traemos los vinos premiados por la gente, de suelo a tu mesa</p>
+        </main>
+       
+        <div class="contenedor" id="VP">
+        </div>
+
+        <br>
+    </div>
+    <footer>
+        <div class="bodega">
+            <p>Bodega Aveiro<br>Mendoza, Argentina</p>
+        </div>
+        <div class="contacto">
+                <div class="redes">
+                    <ul class="lista">
+                        <li><a href=""> La Bodega</a></li>
+                        <li><a href=""> Nuestros Vinos</a></li>
+                        <li><a href=""> Comprar</a></li>
+                        <li><a href=""> Contacto</a></li>
+                        <li><a href=""> Donde Encontrarnos</a></li>
+                    </ul>
+                </div>
+                <div class="redes_iconos">
+                    <p>Seguinos</p>
+                    <a href=""><img src="assets/images/F.png" alt=""></a> 
+                    <a href=""><img src="assets/images/IG.png" alt=""></a>
+                    <a href=""><img src="assets/images/T.png" alt=""></a> 
+                </div>
+                <div class="redes">
+                    <ul class="lista2">
+                        <li> Bodega Aveiro S.A.
+                        <li> Calle Martinez de Rosas</li>
+                        <li> Tunuyán, Provincia Mendoza.</li>
+                        <li> 0800-222-0048</li>
+                        <li> AtencionCliente@aveiro.com</li>
+                    </ul>
+                </div>
+        </div>
+        <p>Bodega Estancia Mendoza © 2018 <br>
+            Todos los derechos reservados. Los izquierdos también. <br>
+            Beber con moderación. Prohibida su venta a menores de 18 años.</p>
+            <br>
+    </footer>
+    <script src="JS/ajaxMaxi.js"></script>
+    <script src="JS/filtro.js"></script>
+    <script src="JS/test.js"></script>
+    <script>
+        GetVinosPremium();
+    </script>
+</body>
+</html>

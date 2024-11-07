@@ -1,0 +1,205 @@
+main{text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;}
+
+main p{text-align: left;}
+
+.aveiro{padding-left: 660px;
+        width: 400px;
+        height: 300px;}
+
+.title{text-shadow: 3px 1px 1px rgb(160, 157, 157);}
+
+.video{padding-left: 310px;
+      padding-right: 240px;}
+
+.bodeguita{width: 1000px;
+        height: 350px;
+        padding-bottom: 100px;}
+
+.hrLinea{vertical-align: middle;
+        width: 30%;
+        display: inline-block;
+        border: 2px solid gold;}
+
+.line1{vertical-align: middle;
+         width: 99%;
+         margin-left: 5px;
+         display: inline-block;
+         border: 2px solid gold;}
+
+.imagen{display: flex;
+    justify-content: space-between;}         
+
+.imagenes{display: flexbox;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 400px;
+        height: 320px;}
+
+.first{clip-path: circle(50%);
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin: auto;}
+
+@media screen and (max-width: 1024px) {
+    main{width: 100%;
+        height: 520px;}
+
+    main p{justify-content: left;}  
+    
+    .aveiro{display: flex;
+        width: 400px;
+        height: 300px;}
+
+    .bodeguita{width: 420px;
+            height: 280px;
+            padding-bottom: 150px;
+            padding-right: 6px;}
+
+    .imagen{display: flex;
+        justify-content: space-between;}         
+
+    .imagenes{display:inline-block;
+        text-align: left;
+        width: 400px;
+        height: 120px;}
+
+    .first{clip-path: circle(50%);
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: auto;}
+
+    .title{font-size: 20px;}
+
+    .hrLinea{width: 20%;}
+
+    .line1{width: 98.5%;}
+}
+      
+@media screen and (max-width: 850px) {
+    main{width: 100%;
+        height: 550px;}
+
+    main p{justify-content: left;}    
+
+    .aveiro{padding-left: 220px;
+        width: 400px;
+        height: 300px;}
+
+    .bodeguita{width: 420px;
+            height: 280px;
+            padding-bottom: 150px;
+            padding-right: 5px;}
+
+    .imagen{display: inline-block;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-top: 15px;}         
+
+    .imagenes{display:inline-block;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 100px;
+        width: 400px;
+        height: 120px;}
+
+    .first{clip-path: circle(50%);
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: auto;}
+
+    .title{font-size: 20px;}
+
+    .hrLinea{width: 20%;}
+
+    .line1{width: 98.5%;}
+}
+  
+@media screen and (max-width: 620px) {
+
+    main{width: 99%;
+        height: 620px;}
+
+    main p{justify-content: left;}    
+
+    .aveiro{padding-left: 120px;
+        width: 350px;
+        height: 250px;}
+
+    .bodeguita{width: 420px;
+            height: 280px;
+            padding-bottom: 150px;
+            padding-right: 5px;}
+
+    .imagen{display: inline-block;
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-top: 15px;}         
+
+    .imagenes{display:inline-block;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 35px;
+        width: 400px;
+        height: 120px;}
+
+    .first{clip-path: circle(50%);
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: auto;}
+
+    .title{font-size: 20px;}
+
+    .hrLinea{width: 20%;}
+
+    .line1{width: 98.5%;}
+}
+
+@media screen and (max-width: 456px) {
+    .title{font-size: 20px;
+           padding-left: 40px;}
+    
+    main{width: 98%;
+         height: 570px;}
+
+    main p{font-size: 15px;
+           justify-content: left;}
+
+    .aveiro{padding-left: 70px;
+            width: 300px;
+            height: 200px;}
+
+    .bodeguita{width: 400px;
+            height: 140px;
+            padding-bottom: 140px; 
+            margin-left: 10px;}
+
+    .hrLinea{width: 10%;}
+
+    .line1{width: 98%;}
+
+    .imagen{flex-direction: columns;
+        padding-left: 40px;
+        padding-top: 15px;
+        width: 320px;}         
+
+    .imagenes{padding-top: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+            width: 300px;
+            height: 220px;}
+
+    .first{clip-path: circle(50%);
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: auto;}
+}

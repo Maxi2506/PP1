@@ -1,0 +1,218 @@
+html, body{
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden; /* <- ocultamos el scroll horizontal */ }
+
+body{ font-family: Arial, Helvetica, sans-serif;
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+      height: 100%;;}
+
+header{color: white;
+       justify-content: center;
+       background-color: #57052e;
+       height: 40px;
+       width: 100%;}
+
+.cuerpo{background: linear-gradient(to left, #57052e,#1d1d1d);
+      color: whitesmoke;
+      width: 100%;
+      height: 100%;
+      margin: 0%;
+      padding: 0%;}
+
+nav{background-color: #57052e;
+    height: 50px;
+    padding-top: 10px;}
+
+.menu a{color: white;
+       margin-left: 10px;
+       text-decoration: none;}
+
+footer{background-color: #57052e;
+       color: white;
+       text-align: center;
+      justify-content: center;
+      align-items: center;}
+
+.bodega{padding-top: 5px;}
+
+.contacto{width: 100%;
+          display: flex;
+          justify-content: space-around;
+          padding-right: 250px;}
+
+.contacto .redes_iconos{display: inline-block;
+          justify-content: space-around;
+          color: white;
+          width: 400px;}
+
+.contacto .redes{display: inline;
+                width: 150px;
+                padding-right: 150px;}
+
+.redes_iconos{display: inline;
+            align-items: center;
+            width: 180px;}
+     
+.contacto a{color: white;
+            text-decoration: none;}
+      
+.contacto .lista{list-style-type: none;
+                 text-align: left;
+                 width: 150px; }
+
+.lista2{list-style-type: none;
+      text-align: right;
+      padding-right: 0px;
+      width: 210px;}
+
+.navegador a:hover{transform: scale(1.2);}
+.lista :hover{transform: scale(1.2);}
+
+@media screen and (max-width: 1024px) {
+      html, body{
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden; /* <- ocultamos el scroll horizontal */ }
+
+      .menu{width: 100%;
+            height: 30px;}
+
+      .menu a{color: white;
+            margin-left: 2px;
+            text-decoration: none;}
+
+      nav{width: 100vh;
+          height: 20vh;}
+
+      .cuerpo{flex-direction: columns;}
+
+      .contacto{width: 90%;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 35px;}
+
+      .contacto .redes_iconos{display: inline-block;
+                              padding-left: 20px; }
+          
+      .contacto .redes{padding-left: 40px;}
+
+      .contacto .lista{list-style-type: none;
+            text-align: left;
+            width: 150px; 
+            padding-right: 50px;}
+
+      .lista2{list-style-type: none;
+            text-align: right;
+            padding: auto;}
+            
+}
+      
+@media screen and (max-width: 850px) {
+
+      .menu{width: 100%;
+            height: 30px;}
+
+      .menu a{color: white;
+            margin-left: 2px;
+            text-decoration: none;}
+
+      nav{width: 100vh;
+          height: 20vh;}
+
+      .cuerpo{flex-direction: columns;}
+
+      .contacto{width: 90%;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 35px;}
+
+
+      .contacto .redes{padding-left: 10px;}
+
+      .contacto .lista{list-style-type: none;
+            text-align: left;
+            width: 150px; 
+            padding-right: 50px;}
+
+      .contacto .redes_iconos{display: inline-block;
+                              padding-left: 5px;}
+                        
+      .lista2{list-style-type: none;
+            text-align: right;
+            padding: auto;}
+  }
+
+  @media screen and (max-width: 620px) {
+      html, body{
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden; /* <- ocultamos el scroll horizontal */ }
+
+      .menu{width: 100%;
+            height: 30px;}
+
+      .menu a{color: white;
+            margin-left: 2px;
+            text-decoration: none;}
+
+      nav{width: 100vh;
+          height: 20vh;}
+
+      .contacto{width: 60%;
+            text-align: center;
+            justify-content: center;
+            display: inline-block;
+            padding-left: 100px;}
+
+      .contacto .redes{padding-left: 350px;}
+
+      .contacto .lista{text-align: center;
+                     padding-left: 140px;
+                      width: 100px;
+                  height:100px;}
+
+      .contacto .redes_iconos{display: inline-block;
+                            padding-top: 20px;
+                             width: 160px;
+                              padding-right: 43.2px;}
+                        
+      .lista2{text-align: center;
+            width: 180px;
+            padding-left: 100px;}
+  
+      }
+
+  @media screen and (max-width: 456px) {
+      html, body{
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden; /* <- ocultamos el scroll horizontal */ }
+
+      header .menu{width: 100%;
+                   height: 35px;}
+
+      .menu a{margin-left: 2px;
+            font-size: 15px;}
+
+      nav{width: 100vh;
+          height: 20vh;}
+
+      .contacto{align-items: center;
+            width: 300px;
+            padding-right: 80px;}
+
+      .redes{display: inline-block;}
+
+      .contacto .lista{text-align: center;
+            padding-left: 63px;}
+ 
+      .contacto .redes_iconos{padding-right: 100px;} /*revisar*/
+           
+      .contacto .lista2{text-align: center;
+            width: 185px;
+            padding-left: 15px;}
+                          
+  }

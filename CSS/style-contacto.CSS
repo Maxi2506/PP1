@@ -1,0 +1,210 @@
+.fondo{display: flex;}
+
+.form{display: flex;
+    justify-content: center;
+    font-family: inherit;
+    background-color: #57052e;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 510px;
+    padding: 5px;
+    width: 640px;
+    display: inline-block;
+    color: whitesmoke;
+    border-radius: 4px;}
+
+h4{font-size: 22px;}
+
+label{font-size: 18px;}
+
+input{font-size: 16px;
+    display: block; 
+    border-radius: 4px;
+    width: 98%;}
+
+textarea{font-family: Arial, Helvetica, sans-serif;
+         font-size: 16px;
+         display: block; 
+         border-radius: 4px;
+         width: 98%;}
+
+.form button{font-family: Arial, Helvetica, sans-serif;
+             width: 98.9%;
+             padding: 5px;
+            font-size: 16px;}
+
+.form button:hover{background-color: #D2B48C;
+                   transition: 1.5s;}
+
+.datos{display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #5f0432;}
+
+.adicional{padding-left: 200px;
+           padding-right: 200px;
+           width: 400px;}
+
+.contact{list-style-type: none;
+        text-align: left;
+        padding-left: 50px;
+        width: 200px;}
+
+.mapa{width: 300px;
+      height: 150px;}
+
+@media screen and (max-width: 1024px) {
+    .fondo{width: 580px;
+        padding-left: 273px;
+        padding-top: 20px;
+        padding-bottom: 20px;}
+
+    .fondo .form{width: 450px;
+        text-align:center;
+        margin:0px auto;}
+    
+    h4{font-size: 18px;}
+    
+    label{font-size: 15px;}
+    
+    input{font-size: 14px;
+          width: 98%;}
+    
+    textarea{font-size: 14px;
+             display: block; 
+             width: 98%;}
+    
+    .form button{font-family: Arial, Helvetica, sans-serif;
+                 width: 98.9%;
+                 padding: 5px;
+                font-size: 15px;}
+    
+    .datos{height: 320px;}
+    
+    .adicional{padding-left: 10px;
+               padding-right: 10px;
+               width: 350px;}
+    
+    .contact{padding-left: 25px;
+            width: 200px;}
+    
+    .mapa{width: 200px;
+          height: 150px;}
+}
+        
+@media screen and (max-width: 850px) {
+    .fondo{width: 450px;
+        padding-left: 170px;
+        padding-top: 20px;
+        padding-bottom: 20px;}
+
+    .fondo .form{width: 450px;
+        text-align:center;
+        margin:0px auto;}
+    
+    h4{font-size: 18px;}
+    
+    label{font-size: 15px;}
+    
+    input{font-size: 14px;
+          width: 98%;}
+    
+    textarea{font-size: 14px;
+             display: block; 
+             width: 98%;}
+    
+    .form button{font-family: Arial, Helvetica, sans-serif;
+                 width: 98.9%;
+                 padding: 5px;
+                font-size: 15px;}
+    
+    .datos{height: 320px;}
+    
+    .adicional{padding-left: 10px;
+               padding-right: 10px;
+               width: 350px;}
+    
+    .contact{padding-left: 5px;
+            width: 200px;}
+    
+    .mapa{width: 200px;
+          height: 150px;}
+}
+    
+@media screen and (max-width: 620px) {
+    .fondo{width: 350px;
+        padding-left: 120px;
+        padding-top: 20px;
+        padding-bottom: 20px;}
+
+    .fondo .form{width: 350px;
+        text-align:center;
+        margin:0px auto;}
+    
+    h4{font-size: 18px;}
+    
+    label{font-size: 15px;}
+    
+    input{font-size: 14px;
+          width: 98%;}
+    
+    textarea{font-size: 14px;
+             display: block; 
+             width: 98%;}
+    
+    .form button{font-family: Arial, Helvetica, sans-serif;
+                 width: 98.9%;
+                 padding: 5px;
+                font-size: 15px;}
+    
+    .datos{height: 320px;}
+    
+    .adicional{padding-left: 10px;
+               padding-right: 10px;
+               width: 350px;}
+    
+    .contact{padding-left: 5px;
+            width: 200px;}
+    
+    .mapa{width: 200px;
+          height: 150px;}
+}
+    
+@media screen and (max-width: 456px) {
+    .fondo{width: 300px;
+        padding-left: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;}
+
+    .fondo .form{width: 300px;
+        text-align:center;
+        margin:0px auto;}
+    
+    h4{font-size: 18px;}
+    
+    label{font-size: 15px;}
+    
+    input{font-size: 14px;
+          width: 98%;}
+    
+    textarea{font-size: 14px;
+             display: block; 
+             width: 98%;}
+    
+    .form button{font-family: Arial, Helvetica, sans-serif;
+                 width: 98.9%;
+                 padding: 5px;
+                font-size: 15px;}
+    
+    .datos{height: 320px;}
+    
+    .adicional{padding-left: 10px;
+               padding-right: 10px;
+               width: 350px;}
+    
+    .contact{padding-left: 5px;
+            width: 200px;}
+    
+    .mapa{width: 200px;
+          height: 150px;}
+}

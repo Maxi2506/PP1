@@ -1,0 +1,104 @@
+{
+  "vinos": [
+    {
+      "titulo": "Malbec & Cabernet Frans",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "Color violáceo con destellos rubí. En nariz presenta aromas especiados de azafrán, curry y ahumados. Se destacan también notas mentoladas, tomate cocido y orégano fresco. En boca es un vino redondo, se destaca el gusto frutado de la ciruela y el cassis. Su acidez bien lograda le da un toque de frescura.",
+      "precio": "20000",
+      "img": "/assets/images/vinos/01-iscay.jpg"
+    },
+    {
+      "titulo": "Terroir Seriz Malbec",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "De color rojo granate profundo, este Malbec expresa aromas a frutos rojos como cerezas y grosellas, e intensas notas balsámicas con recuerdos a hierbas frescas. En boca, es dulce y amplio con gran concentración de fruta y taninos suaves y maduros.",
+      "precio": "22000",
+      "img": "/assets/images/vinos/02-terroir-series.jpg"
+    },
+    {
+      "titulo": "Gran Medalla Malbec",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "De color rojo púrpura, este vino presenta un fino bouquet con aromas de cerezas negras, ciruelas, notas de lavanda, especias y minerales. En boca es volumioso, exhibiendo una elegante personalidad",
+      "precio": "22800",
+      "img": "assets/images/vinos/03-gran-medalla.jpg"
+    },
+    {
+      "titulo": "Costa & Pampa Chardonay",
+      "tipo_de_vino": "Blanco",
+      "descripcion": "De un fino color dorado y leves tonos verdosos, posee notas a manzanas verdes, pera y dejos de pan tostado y manteca. Se presenta fresco en boca con marcada presencia mineral y final largo y untuoso.",
+      "precio": "30000",
+      "img": "/assets/images/vinos/04-costaypampa.jpg"
+    },
+    {
+      "titulo": "Medalla Blend",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "De color rojo profundo con matices bordó, este blend expresa aromas que recuerdan a pimientos ahumados, mezclados con un sutil toque de tabaco y especias, dado por su paso por roble. En boca tiene un final dulce y persistente, característico de un vino estructurado y complejo",
+      "precio": "31000",
+      "img": "/assets/images/vinos/05-medalla.jpg"
+    },
+    {
+      "titulo": "Manos Malbec",
+      "tipo_de_vino": "Rosado",
+      "descripcion": "Malbec, indiscutiblemente el varietal emblema de la Argentina. El alto desierto de Altamira, en el sur del Valle de Uco, provee condiciones ideales para que este varietal, demuestre todo su potencial como en ningún otro lado del mundo. Los días soleados aportan un color negro con sabores de frutas oscuras.",
+      "precio": "31000",
+      "img": "/assets/images/vinos/06-manos.jpeg"
+    },
+    {
+      "titulo": "Fond de Cave Gran Reserva Malbec",
+      "tipo_de_vino": "Rosado",
+      "descripcion": "De color azul profundo, este vino entrega aromas de frutas rojas maduras con presencia de especias y un toque herbáceo, que se integran a un sutil aroma floral. En boca su entrada es caudalosa y aterciopelada, con sabores de fruta confitada y licor de cassis que se combinan con el roble.",
+      "precio": "36000",
+      "img": "/assets/images/vinos/07.jpg"
+    },
+    {
+      "titulo": "Perfiles Calcareo Malbec",
+      "tipo_de_vino": "Rosado",
+      "descripcion": "Un Malbec lleno de energía vibrante con un perfil de suelo calcáreo a más de 1.300 metros sobre el nivel del mar. Luchando por sobrevivir en estas condiciones extremas; la planta ha desarrollado una resistencia única.",
+      "precio": "39800",
+      "img": "/assets/images/vinos/08.jpg"
+    },
+    {
+      "titulo": "Fond de Cave Reserva Malbec",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "De color rojo púrpura intenso con matíces rubí, este Malbec expresa aromas a mermelada de frutas negras y liqueur, con un toque elegante de humo, vainilla y chocolate. En boca tiene un gusto seco, con un final largo y aterciopelado",
+      "precio": "39850",
+      "img": "/assets/images/vinos/09-fondecavereserva.jpg"
+    },
+    {
+      "titulo": "Puro e Impuro Malbec",
+      "tipo_de_vino": "Rosado",
+      "descripcion": "Rojo violáceo profundo y brillante. Expresivo, profundo con matices frutales que recuerdan a ciruelas, moras y cerezas con tonos florales de violetas y especias como vainilla, clavo y canela. Amplio y jugoso con taninos firme y frescura jugosa. Final balsámico y envolvente.",
+      "precio": "40200",
+      "img": "/assets/images/vinos/10-puro-impur9.jpg"
+    },
+    {
+      "titulo": "Trapiche Malbec 2017",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "De color rojo púrpura, este vino presenta un fino bouquet con aromas de cerezas negras, ciruelas, notas de lavanda, especias y minerales. En boca es volumioso, exhibiendo una elegante personalidad.",
+      "precio": "43000",
+      "img": "/assets/images/vinos/11-trapiche-reserva.jpg"
+    },
+    {
+      "titulo": "Fond de Cave Malbec",
+      "tipo_de_vino": "Tinto",
+      "descripcion": "De color rojo púrpura intenso con matíces rubí, este Malbec expresa aromas a mermelada de frutas negras y liqueur, con un toque elegante de humo, vainilla y chocolate. En boca tiene un gusto seco, con un final largo y aterciopelado",
+      "precio": "44700",
+      "img": "/assets/images/vinos/12-fondecave.jpg"
+    }
+  ],
+  "vinos_premium": [
+    {
+      "titulo": "Andeluna, Blanc de Franc",
+      "tipo_de_vino": "Rosado",
+      "descripcion": "Muy intenso conjunto aromático donde se perciben rosas blancas, jazmines. También notas tipicas de la variedad como pimiento rojo, pimienta rosa y flor de jarilla. El equilibrio entre su cuerpo medio untuoso y una acidez natural muy fresca lo hacen muy atractivo y prolongado.",
+      "precio": "52000",
+      "img": "assets/images/vinosPremium/1.1.1.jpg"
+    },
+    {
+      "titulo": "Andeluna, Blanc de Malbec",
+      "tipo_de_vino": "Blanco",
+      "descripcion": "Vino blanco de color translucido con reflejo rosé. Es frutado y floral con dejos cítricos de fondo. Recuerda a cerezas frescas, peras, fresias y dejos muy sutiles de lima. En boca es tenso y lineal con sabor de fruta roja super fresca y dejos cítricos. Ligero y refrescante.",
+      "precio": "50500",
+      "img": "assets/images/vinosPremium/2.2.jpg"
+    }
+  ]
+}

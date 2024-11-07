@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.CSS">
+    <link rel="stylesheet" href="CSS/style-contacto.CSS">
+    <link rel="shortcut icon" href="assets/images/aveiro.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+                <a href="index.html">La Bodega</a>
+                <a href="nuestro-vinos.html">Nuestros Vinos</a>
+                <a href="nuestra-gente.html">Nuestra Gente</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="vinos-premium.html">Vinos Premium</a>
+        </nav>
+    </header>
+    <div class="cuerpo">
+        <div class="fondo">
+        <div class="form">
+            <h4>Formulario de Contacto</h4>
+            <form action="" method="" enctype="multipart/form-data" id="formulario" class="formulario">
+                <label>Ingrese su Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre..." required>
+                <div class="error-message" id="error-nombre" style="display: none; color: rgb(255, 238, 2);"></div>
+                <label>Ingrese su Apellido</label>
+                <input type="text" name="apellido" placeholder="Apellido..." required>
+                <div class="error-message" id="error-apellido" style="display: none; color: rgb(255, 238, 2);"></div>
+                <label>Ingrese su Correo</label>
+                <input type="email" name="email" placeholder="Correo electrónico..." required>
+                <div class="error-message" id="error-email" style="display: none; color: rgb(255, 238, 2);"></div>
+                <label>Ingrese su Consulta</label>
+                <textarea name="comentario" rows="10" cols="60" placeholder="Escribe tu comentario…" required></textarea>
+                <button id="submit" type="submit" class="submit" value="Enviar"><strong>Enviar</strong></button>
+                <button type="reset"><strong>Borrar</strong></button>
+            </form>
+        </div>
+    </div>
+        <div class="datos">
+           <div class="adicional">
+            <h2>¿HABLAMOS?</h2>
+            <ul class="contact">
+                <li> Estancia Aveiro S.A.
+                <li> Calle Martinez de Rosas</li>
+                <li> Mendoza, Provincia Mendoza.</li>
+                <li> 0800-222-0048</li>
+                <li> AtencionCliente@aveiro.com</li>
+            </ul>
+           </div>
+           <div class="adicional">
+            <h2>UBICACIÓN</h2>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.745478909375!2d-68.85333779999999!3d-32.878453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08fead91e7f5%3A0xf4021863c25dc0d4!2sMart%C3%ADnez%20de%20Rozas%201928%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1716411345620!5m2!1ses-419!2sar" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>Coordenadas GPS</h3>
+            <p>-32.87825927759352, -68.85329488465884</p>
+           </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bodega">
+            <p>Bodega Aveiro<br>Mendoza, Argentina</p>
+        </div>
+        <div class="contacto">
+                <div class="redes">
+                    <ul class="lista">
+                        <li><a href=""> La Bodega</a></li>
+                        <li><a href=""> Nuestros Vinos</a></li>
+                        <li><a href=""> Comprar</a></li>
+                        <li><a href=""> Contacto</a></li>
+                        <li><a href=""> Donde Encontrarnos</a></li>
+                    </ul>
+                </div>
+                <div class="redes_iconos">
+                    <p>Seguinos</p>
+                    <a href=""><img src="assets/images/F.png" alt=""></a> 
+                    <a href=""><img src="assets/images/IG.png" alt=""></a>
+                    <a href=""><img src="assets/images/T.png" alt=""></a> 
+                </div>
+                <div class="redes">
+                    <ul class="lista2">
+                        <li> Bodega Aveiro S.A.
+                        <li> Calle Martinez de Rosas</li>
+                        <li> Tunuyán, Provincia Mendoza.</li>
+                        <li> 0800-222-0048</li>
+                        <li> AtencionCliente@aveiro.com</li>
+                    </ul>
+                </div>
+        </div>
+        <p>Bodega Estancia Mendoza © 2018 <br>
+            Todos los derechos reservados. Los izquierdos también. <br>
+            Beber con moderación. Prohibida su venta a menores de 18 años.</p>
+            <br>
+    </footer>
+    <script src="JS/test.js"></script>
+</body>
+</html>
