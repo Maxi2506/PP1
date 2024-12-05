@@ -208,6 +208,28 @@ button:hover {
         letter-spacing: 1px;
         font-size: 12px;
     }
+
+    .datos {
+        padding-top: 10px;
+        height: 50px;
+    }
+
+    .datos label {
+    font-size: 15px;
+    }
+    
+    .datos input {
+        border-radius: 4px;
+        width: 80px;
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -248,6 +270,29 @@ button:hover {
         letter-spacing: 1px;
         font-size: 12px;
     }
+
+    .datos {
+        padding-top: 10px;
+        height: 60px;
+    }
+
+    .datos label {
+    font-size: 15px;
+    }
+    
+    .datos input {
+        border-radius: 4px;
+        width: 100px;
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -288,6 +333,32 @@ button:hover {
         letter-spacing: 1px;
         font-size: 10px;
     }
+
+    .datos {
+        padding-top: 10px;
+        height: 60px;
+    }
+
+    .datos label {
+    font-size: 14px;
+    margin: 1px;
+    }
+    
+    .datos input {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+        width: 60px;
+        box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1)
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 456px) {
@@ -329,4 +400,29 @@ button:hover {
         letter-spacing: 1px;
         font-size: 9px;
     }
+
+    .datos {
+        padding-top: 10px;
+        height: 70px;
+    }
+
+    .datos label {
+    font-size: 13px;
+    }
+    
+    .datos input {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+        width: 60px;
+        box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1)
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 13px;
+    }
+
 }

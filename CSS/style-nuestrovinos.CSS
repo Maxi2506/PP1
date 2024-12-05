@@ -253,6 +253,28 @@ button:hover {
         font-size: 12px;
     }
 
+    .datos {
+        padding-top: 10px;
+        height: 50px;
+    }
+
+    .datos label {
+    font-size: 15px;
+    }
+    
+    .datos input {
+        border-radius: 4px;
+        width: 80px;
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -287,11 +309,11 @@ button:hover {
     }
 
     .imagen .front h3 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .imagen .second h3 {
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 6px;
         letter-spacing: 1px;
     }
@@ -299,6 +321,28 @@ button:hover {
     .imagen .second p {
         letter-spacing: 1px;
         font-size: 10px;
+    }
+
+    .datos {
+        padding-top: 10px;
+        height: 60px;
+    }
+
+    .datos label {
+    font-size: 15px;
+    }
+    
+    .datos input {
+        border-radius: 4px;
+        width: 100px;
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 14px;
     }
 
 }
@@ -346,6 +390,31 @@ button:hover {
     .imagen .second p {
         letter-spacing: 1px;
         font-size: 10px;
+    }
+
+    .datos {
+        padding-top: 10px;
+        height: 60px;
+    }
+
+    .datos label {
+    font-size: 14px;
+    margin: 1px;
+    }
+    
+    .datos input {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+        width: 60px;
+        box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1)
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 14px;
     }
 
 }
@@ -443,6 +512,30 @@ button:hover {
         background-color: #D2B48C;
         color: black;
         transition: 1.5s;
+    }
+
+    .datos {
+        padding-top: 10px;
+        height: 70px;
+    }
+
+    .datos label {
+    font-size: 13px;
+    }
+    
+    .datos input {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+        width: 60px;
+        box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1)
+    }
+    
+    input[type="text"] {
+        width: 80px;
+      }
+    
+    .datos select {
+        font-size: 13px;
     }
 
 }
